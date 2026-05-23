@@ -1,8 +1,54 @@
+
+
+body{
+    background-color:rgb(19, 18, 18)
+}
+
 .box-main{
     display:grid;
     place-items: center;
 
-    background-color:rgba(221, 166, 13, 0.89);
 
-    margin: 10% 30% 0% 30%;
+    background-color:rgb(61, 60, 57);
+    
+
+    margin: 10% 20% 0% 20%;
+    padding: 15px 15px 100px 15px;
+    
+}
+
+h1{
+    color:rgb(224, 224, 224);
+    margin-bottom:0px
+}
+
+
+p{
+    text-align: center;
+    color: rgb(196, 191, 191)
+}
+
+input{
+    width:50px;
+    height:30px;
+    
+    margin:10px;
+    text-align:center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button{
+    width:80px;
+    height:30px;
+    font-size:15px;
+    margin:10px 0px 20px 0px;
+
+    background-color:rgb(209, 117, 31);
+    color:white;
+}
+
+#resultado{
+    color:white;
+    font: size 20px;
 }
